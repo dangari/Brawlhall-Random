@@ -1,0 +1,72 @@
+body {
+  background-color: #242b3b;
+  color: white;
+  font-family: 'Open Sans';
+}
+h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+.box {
+  background-color: #0f4361;
+  border: 1px solid #bbc3d6;
+  padding: 5px;
+}
+#content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  margin: 0 auto;
+  float: none;
+}
+.wrap {
+  position: relative;
+}
+label::before {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  content: "";
+  background-image: url("../images/KatarsIcon.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 4px;
+}
+.heroes {
+  float: left;
+  border-radius: 3px;
+}
+.heroes img {
+  background-color: white;
+  margin: 3px;
+  border: 1px solid #bbc3d6;
+  border-radius: 6px;
+}
+.heroes img:hover {
+  box-shadow: 2px 2px #7c8caf;
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.heroes img.selected {
+  box-shadow: 2px 2px #7c8caf;
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.heroes p {
+  text-align: center;
+  margin: 2px;
+}
+.heroes .avatar-img {
+  position: relative;
+  float: left;
+}
+.weapons {
+  height: 100px;
+  float: left;
+  width: 80%;
+}
