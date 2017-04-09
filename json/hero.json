@@ -1,0 +1,19 @@
+{
+    "heroes": [{
+            "name": "Bodvar",
+            "weapon_1": "Sword",
+            "weapon_2": "Hammer",
+            "image": "images/Bodvar_Avatar.png",
+            "selected": true,
+            "id": "1"
+        },
+        {
+          "name": "Cassidy",
+          "weapon_1": "Pistol",
+          "weapon_2": "Hammer",
+          "image": "images/Cassidy_Avatar.png",
+          "selected": false,
+          "id": "2"
+        }
+    ]
+}
